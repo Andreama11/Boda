@@ -1,0 +1,476 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.seccion {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.main {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================== Header ============================== */
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__img {
+    position: relative;
+}
+
+.boda-img {
+    width: 400px;
+    height: 550px;
+}
+
+.florecita {
+    position: absolute; 
+    width: 350px;
+    height: 350px;
+    top: 61%;
+    left: -35%;
+}
+
+.header > .florecita {
+    position: absolute;
+    width: 700px;
+    height: 590px;
+    left: 72%;
+    top: 40px;
+}
+
+.header__date {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 74px 60px 74px 0;
+}
+/* ============================== Header ============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================== Square ============================== */
+.square{
+    position: relative;
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square i
+{
+   position: absolute;
+   inset: 0;
+   border: 2px solid #fff;
+   transition: 0.5s;
+   border-radius: 50%;
+}
+
+.square i:nth-child(1)
+{
+    animation: animate 10s linear infinite;
+}
+
+.square i:nth-child(2)
+{
+    animation: animate  7s linear infinite;
+    top: 10px;
+}
+
+.square i:nth-child(3)
+{
+    animation: animate  6s linear infinite;
+    top: -8px;
+    right: -7px;
+}
+
+.square i:nth-child(4)
+{
+    animation: animate 13s linear infinite;
+    top: -17px;
+    right: 3px;
+}
+
+.square i
+{
+ border: 1px solid var(--clr);
+ filter: drop-shadow(0 0 20px var(--clr));
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform:rotate(0deg);
+
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate2
+{
+    0%
+    {
+        transform:rotate(360deg);
+
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+/* ============================== Square ============================== */
+
+
+
+
+
+
+
+
+
+
+/* ============================== Countdown ============================== */
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.8);
+    gap: 32px;
+}
+
+.countdown p {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.countdown svg {
+    width: 26px;
+}
+
+.countdown div {
+    display: flex;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0 0 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+/* ============================== Countdown ============================== */
+
+
+
+
+
+
+
+
+
+
+/* ============================== 1ra parte main ============================== */
+.frase {
+    font-size: 24px;
+    margin: 27px 0 300px 180px;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    gap: 210px;
+}
+
+.informacion section {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 10px;
+    font-size: 35px;
+    position: relative;
+}
+
+.informacion section .flor {
+    position: absolute;
+    z-index: -1;
+    top: -60%;
+    left: -160px;
+    width: 630px;
+}
+
+.informacion section,
+.informacion a {
+    background-color: #BFBA7C;
+}
+
+.informacion a {
+    background-color: #BFBA7C;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border-color: var(--crema);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.container-uno-p1 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.container-uno-p2 {
+    font-size: 22px;
+}
+
+.hora-evento {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.hora-evento p:nth-child(1)::after {
+    content: "|";
+}
+/* ============================== 1ra parte main ============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================== Seccion imagenes boda ============================== */
+.instagram__container {
+    padding-block: 1rem;
+    overflow: hidden;
+    margin-top: 50px
+}
+
+.instagram__flex {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  
+    animation: scroll 40s linear infinite;
+}
+
+.instagram__flex img {
+    max-width: 300px;
+    box-shadow: 0 6px 8px rgba(27, 25, 25, 0.1);
+}
+
+@keyframes scroll {
+    to {
+      transform: translateX(calc(-50% - 5px));
+    }
+}
+
+@media (width > 500px) {
+    .instagram__flex img {
+      max-width: 180px;
+    }
+}
+
+@media (width > 768px) {
+    .instagram__flex img {
+      max-width: 250px;
+    }
+} 
+/* ============================== Seccion imagenes boda ============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================== MQ ============================== */
+@media (max-width: 870px) {
+    .header {
+        position: absolute;
+        background-image: url('./img/M&A-373.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .boda-img {
+        display: none;
+    }
+    .header__img .florecita,
+    .header > .florecita {
+        display: none;
+    }
+    .header__date {
+        margin: 0;
+        margin-bottom: -146px;
+        z-index: 1;
+        width: 100%;
+    }
+    .header__date-text {
+        margin-top: 350px;
+        font-size: 24px;
+        color: white;
+    }
+    .square {
+        width: 266px;
+        height: 266px;
+    }
+    .countdown {
+        transform: scale(1.5);
+        gap: 14px;
+    }
+    .countdown p {
+        font-size: 16px;
+    }
+    .countdown svg {
+        width: 16px;
+    }
+    .time {
+        margin: 5px;
+    }
+    .time h2 {
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+    }
+    .time small {
+        font-size: 8px;
+    }
+
+    .main {
+        margin-top: 800px;
+    }
+
+    .frase {
+        margin: 27px 0 300px 0;
+    }
+
+    .informacion {
+        flex-direction: column;
+    }
+}
+/* ============================== MQ ============================== */
