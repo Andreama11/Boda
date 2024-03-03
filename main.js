@@ -1,3 +1,26 @@
+// =============================== Imagenes boda ===============================
+const instagram = document.querySelector(".instagram__flex");
+
+const instagramContent = Array.from(instagram.children);
+
+instagramContent.forEach((item) => {
+  const duplicateNode = item.cloneNode(true);
+  duplicateNode.setAttribute("aria-hidder", true);
+  instagram.appendChild(duplicateNode);
+})
+// =============================== Imagenes boda ===============================
+
+
+
+
+
+
+
+
+
+
+
+
 // =============================== Contador ===============================
 const days = document.querySelector("#days")
 const hours = document.querySelector("#hours")
@@ -33,24 +56,3 @@ function updateCountdowntime() {
 
 countdownInterval = setInterval(updateCountdowntime, 1000);
 // =============================== Contador ===============================
-
-
-
-
-
-
-
-
-
-
-// =============================== Imagenes boda ===============================
-const instagram = document.querySelector(".instagram__flex");
-
-const instagramContent = Array.from(instagram.children);
-
-instagramContent.forEach((item) => {
-  const duplicateNode = item.cloneNode(true);
-  duplicateNode.setAttribute("aria-hidder", true);
-  instagram.appendChild(duplicateNode);
-})
-// =============================== Imagenes boda ===============================
