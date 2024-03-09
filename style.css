@@ -308,13 +308,25 @@ body {
     font-family: 'Carattere';
 }
 
+.informacion a:hover{
+    background-color: #FFF9EF;
+
+}
+
 .container-uno-p1 {
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 37px;
+    font-family: 'Carattere';
 }
 
 .container-uno-p2 {
-    font-size: 22px;
+    font-size: 25px;
+    font-family: 'Playfair Display';
+}
+
+.horario{
+    font-size: 28px;
+    margin-top: 4px;
 }
 
 .hora-evento {
