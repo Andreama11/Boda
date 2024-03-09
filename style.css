@@ -288,8 +288,8 @@ body {
     position: absolute;
     z-index: -1;
     top: -60%;
-    left: -160px;
-    width: 630px;
+    left: -140px;
+    width: 590px;
 }
 
 .informacion section,
@@ -310,6 +310,7 @@ body {
 
 .informacion a:hover{
     background-color: #FFF9EF;
+    border: 1px black;
 
 }
 
@@ -647,4 +648,5 @@ body {
 
 .final{
     font-family: "Carattere", cursive;
+    font-size: 25px;
 }
