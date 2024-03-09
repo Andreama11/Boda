@@ -1,11 +1,22 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.date{ 
+    font-family: "Playfair Display", serif;
+}
+
+.titulo{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
 body {
     overflow-x: hidden;
+    background-color: #FFF9EF;
 }
 
 .contenedor {
@@ -248,8 +259,10 @@ body {
 
 /* ============================== 1ra parte main ============================== */
 .frase {
-    font-size: 24px;
+    font-size: 28px;
     margin: 27px 0 300px 180px;
+    font-family: "Carattere", cursive;
+    font-weight: lighter;
 }
 
 .informacion {
@@ -286,12 +299,13 @@ body {
 }
 
 .informacion a {
-    color: white;
+    color: black;
     padding: 5px 15px;
     border-radius: 8px;
     border-color: var(--crema);
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Carattere';
 }
 
 .container-uno-p1 {
@@ -617,3 +631,8 @@ body {
     }
 }
 /* ============================== MQ ============================== */
+
+
+.final{
+    font-family: "Carattere", cursive;
+}

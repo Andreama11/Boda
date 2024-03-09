@@ -29,7 +29,7 @@ const seconds = document.querySelector("#seconds")
 const countdown = document.querySelector('.countdown');
 
 const currentYear = new Date().getFullYear();
-const newYearTime = new Date(`March 09 ${currentYear} 17:50:50`);
+const newYearTime = new Date(`june 30 ${currentYear} 16:00:00`);
 
 let countdownInterval;
 
