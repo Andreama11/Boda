@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -85,7 +84,7 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin: 74px 60px 74px 0;
+    margin: 74px 60px 74px 10px;
 }
 /* ============================== Header ============================== */
 
@@ -423,6 +422,10 @@ body {
 
 
 /* ============================== Cards ============================== */
+.detalles h2 {
+    margin-bottom: 50px;
+}
+
 .cards-detalles {
     display: flex;
     justify-content: space-between;
@@ -464,7 +467,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+}
+
+.confirmar-asistencia input {
+    width: 48%;
+    height: 32px;
+    text-align: center;
+}
+
+.confirmar-asistencia button {
+    background-color: #BFBA7C;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.confirmar-asistencia button:hover {
+    background-color: #a5a067;
+    cursor: pointer;
 }
 /* ============================== Confirmar asistencia ============================== */
 
@@ -505,9 +526,15 @@ body {
 /* ============================== MQ ============================== */
 /* 870 */
 
+@media (max-width: 876px) {
+    .cards-detalles {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+}
 
-
-@media (max-width: 870px) {
+@media (max-width: 700px) {
     .header {
         position: absolute;
         background-image: url('./img/M&A-373.jpg');
@@ -580,7 +607,9 @@ body {
     .frase {
         position: relative;
         margin: 27px 0 210px 0;
-        padding-top: 100%;
+        padding-top: 20vh;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .informacion {
@@ -608,39 +637,12 @@ body {
         margin: 40px 0 6px 0;
     }
 
-    .cards-detalles {
-        flex-direction: column;
-        align-items: center;
-        gap: 60px;
+    .confirmar-asistencia input {
+        width: 90%;
     }
-}
-
-
-@media (min-width: 400px) {
-    .frase {
-        padding-top: 80%;
-    }
-}
-@media (min-width: 500px) {
-    .frase {
-        padding-top: 60%;
-    }
-}
-@media (min-width: 600px) {
-    .frase {
-        padding-top: 50%;
-    }
-}
-@media (min-width: 700px) {
-    .frase {
-        padding-top: 44%;
-    }
-}
-
-
-@media (min-width: 870px) {
-    .frase {
-        padding: 0;
+    
+    .confirmar-asistencia button {
+        width: 90%;
     }
 }
 /* ============================== MQ ============================== */
