@@ -463,14 +463,21 @@ body {
 .card {
     border-radius: 15px;
     box-shadow: 0 6px 8px rgba(27, 25, 25, 0.1);
-    padding: 25px 15px;
+    padding: 22px 15px;
     width: 280px;
 }
 .vestidos img {
     width: 150px;
 }
 .sobre img {
-    width: 80px;
+    width: 73px;
+    margin-bottom: 22px;
+    margin-top: 23px;
+}
+
+.letter{
+    font-family: 'Playfair Display';
+    font-size: 17px;
 }
 
 .title-song {
@@ -489,11 +496,16 @@ body {
     margin-bottom: 88px;
 }
 
+.man{
+    font-family: 'Playfair Display';
+    font-size: 14px;
+}
+
 .card-button{
     background-color: #FFF9EF;
     border-radius: 5px;
     margin-top: 8px;
-    padding: 4px;
+    padding: 4px 10px;
     font-family: 'Playfair Display';
     border: 1px solid black
 }
@@ -695,8 +707,8 @@ body {
     }
 
     .container-uno-p1 {
-        font-size: 34px;
-        margin: 40px 0 6px 0;
+        font-size: 30px;
+        margin: 0px 0 3px 0;
     }
 
     .confirmar-asistencia input {
