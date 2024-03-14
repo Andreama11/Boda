@@ -357,6 +357,11 @@ body {
 
 
 /* ============================== Seccion imagenes boda ============================== */
+.photo{
+   font-family: 'Playfair Display';
+}
+
+
 .instagram__container {
     padding-block: 1rem;
     overflow: hidden;
@@ -435,11 +440,14 @@ body {
 .dress{
     font-family: 'Carattere';
     font-weight: lighter;
+    font-size: 22px;
 }
+
 
 .gifts{
     font-family: 'Carattere';
     font-weight: lighter;
+    font-size: 25px;
 }
 
 
@@ -465,16 +473,34 @@ body {
 }
 
 .title-song {
-    margin-bottom: -76px;
-};
+    margin-bottom: 18px;
+    font-family: 'Carattere';
+    font-size: 21px;
+    font-weight: lighter;
+}
 
 .cancion {
     margin-bottom: -75px;
+ 
 }
 .cancion img {
-    width: 273px;
+    width: 64px;
+    margin-bottom: 88px;
 }
 
+.card-button{
+    background-color: #FFF9EF;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 4px;
+    font-family: 'Playfair Display';
+    border: 1px solid black
+}
+
+
+.get-name{
+    border-radius: 4px;
+}
 /* ============================== Cards ============================== */
 
 
