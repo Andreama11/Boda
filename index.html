@@ -103,7 +103,7 @@
     </main>
 
     <section class="retrato seccion contenedor">
-        <h2>Retratos de nuestro amor</h2>
+        <h2 class="title-photo" >Retratos de nuestro amor</h2>
         <p>Un minuto, un segundo, un instante que queda en la eternidad</p>
 
         <div class="instagram__container">
@@ -125,11 +125,11 @@
     </section>
 
     <section class="detalles seccion contenedor">
-        <h2>Hagamos juntos una fiesta épica, aquí algunos detalles a tener en cuenta</h2>
+        <h2 class="title-dress" >Hagamos juntos una fiesta épica, aquí algunos detalles a tener en cuenta</h2>
 
         <div class="cards-detalles">
             <div class="card">
-                <h3>Código de vestimenta</h3>
+                <h3 class="dress" >Código de vestimenta</h3>
                 <div class="vestidos">
                     <img src="./img/jeje.png" alt="">
                 </div>
@@ -141,7 +141,7 @@
             </div>
 
             <div class="card">
-                <h3>Regalos</h3>
+                <h3 class="gifts" >Regalos</h3>
                 <div class="sobre">
                     <img src="./img/sobre.png" alt="">
                 </div>
@@ -160,10 +160,15 @@
         </div>
     </section>
 
-    <div class="confirmar-asistencia contenedor">
-        <input type="text" placeholder="Nombre y Apellidos" >
-        <button>Confirmar asistencia</button>
-    </div>
+    <form action="https://formsubmit.co/marianamenjuraar@gmail.com" method="POST" >
+        <div class="confirmar-asistencia contenedor">
+            <input type="text" placeholder="Nombre y Apellidos" name="Nombre" >
+            <button>Confirmar asistencia</button>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+        </div>
+    </form>
+   
 
     <footer class="footer">
         <p class="final">Te esperamos Mariana y Andres</p>

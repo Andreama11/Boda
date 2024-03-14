@@ -394,6 +394,11 @@ body {
       max-width: 250px;
     }
 } 
+
+.title-photo{
+    font-family: 'Carattere';
+    font-weight: lighter;
+}
 /* ============================== Seccion imagenes boda ============================== */
 
 
@@ -422,6 +427,22 @@ body {
 
 
 /* ============================== Cards ============================== */
+.title-dress{
+    font-family: 'Carattere';
+    font-weight: lighter;
+}
+
+.dress{
+    font-family: 'Carattere';
+    font-weight: lighter;
+}
+
+.gifts{
+    font-family: 'Carattere';
+    font-weight: lighter;
+}
+
+
 .detalles h2 {
     margin-bottom: 50px;
 }
@@ -445,13 +466,15 @@ body {
 
 .title-song {
     margin-bottom: -76px;
-}
+};
+
 .cancion {
     margin-bottom: -75px;
 }
 .cancion img {
     width: 273px;
 }
+
 /* ============================== Cards ============================== */
 
 
