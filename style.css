@@ -6,6 +6,7 @@
 
 .date{ 
     font-family: "Playfair Display", serif;
+    font-size: 32px;
 }
 
 .titulo{
@@ -320,13 +321,14 @@ body {
 }
 
 .container-uno-p2 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Playfair Display';
+    margin-top: -7px;
 }
 
 .horario{
-    font-size: 16px;
-    margin-top: 4px;
+    font-size: 20px;
+    margin-top: 1px;
 }
 
 .hora-evento {
