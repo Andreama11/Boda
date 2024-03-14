@@ -476,8 +476,8 @@ body {
 }
 .sobre img {
     width: 73px;
-    margin-bottom: 22px;
-    margin-top: 23px;
+    margin-bottom: 1px;
+    margin-top: 6px;
 }
 
 .letter{
@@ -554,6 +554,18 @@ body {
     background-color: #a5a067;
     cursor: pointer;
     
+}
+
+.flor-6{
+    width: 300px;
+    position: absolute;
+    left: -2%;
+    top: 162px;
+    z-index: -1;
+}
+
+.card-gifts{
+    position: relative;
 }
 /* ============================== Confirmar asistencia ============================== */
 
@@ -665,7 +677,7 @@ body {
 
     .titulo{
         font-size: 46px;
-        width: 90%;
+       
 
     }
 
