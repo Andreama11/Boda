@@ -766,11 +766,13 @@ body {
 
     .rama{
         position: absolute;
-        left: 55%;
+         left: -10%;
+        width: 50%;
+        margin-top: -18px;
     }
     
     .final{
-        margin-right: 119px;
+        margin-left: 57px;
     }
 }
 /* ============================== MQ ============================== */
