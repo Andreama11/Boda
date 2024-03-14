@@ -660,7 +660,15 @@ body {
         padding: 3px;
         margin-right: 100px;
         margin-left: 100px;
+        margin-top: 10px;
     }
+
+    .titulo{
+        font-size: 46px;
+        width: 90%;
+
+    }
+
     .square {
         width: 220px;
         height: 220px;
