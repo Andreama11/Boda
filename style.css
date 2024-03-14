@@ -763,6 +763,15 @@ body {
     .confirmar-asistencia button {
         width: 90%;
     }
+
+    .rama{
+        position: absolute;
+        left: 55%;
+    }
+    
+    .final{
+        margin-right: 119px;
+    }
 }
 /* ============================== MQ ============================== */
 
