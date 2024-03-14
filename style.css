@@ -654,6 +654,13 @@ body {
         font-size: 24px;
         color: white;
     }
+
+    .date{
+        border: 1px solid white;
+        padding: 3px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
     .square {
         width: 220px;
         height: 220px;
