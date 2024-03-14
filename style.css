@@ -314,8 +314,8 @@ body {
 }
 
 .container-uno-p1 {
-    margin-top: 10px;
-    font-size: 37px;
+    margin-top: 4px;
+    font-size: 34px;
     font-family: 'Carattere';
 }
 
@@ -333,10 +333,11 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
+    gap: 8px;
 }
 
 .hora-evento p:nth-child(1)::after {
-    content: "|";
+    content: " |";
 }
 /* ============================== 1ra parte main ============================== */
 
@@ -484,7 +485,7 @@ body {
  
 }
 .cancion img {
-    width: 64px;
+    width: 62px;
     margin-bottom: 88px;
 }
 
@@ -589,7 +590,7 @@ body {
     }
 
     .photo{
-        width: 80%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
     }
