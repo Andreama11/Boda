@@ -723,7 +723,7 @@ body {
 
     .frase {
         position: relative;
-        margin: 27px 0 210px 0;
+        margin: 27px 0 170px 0;
         padding-top: 20vh;
         padding-left: 5px;
         padding-right: 5px;
@@ -768,7 +768,7 @@ body {
     .rama{
         position: absolute;
         left: -8%;
-         width: 45%;
+         width: 48%;
         margin-top: -67px;
         
     }
