@@ -295,7 +295,7 @@ body {
 .informacion section,
 .informacion a,
 .card {
-    background-color: #BFBA7C;
+    background-color: #c5c184;
 }
 
 .informacion a {
@@ -573,6 +573,11 @@ body {
 
 .card-gifts{
     position: relative;
+}
+
+.confirmation{
+    font-family: 'Playfair Display' ;
+    font-size: 17px;
 }
 /* ============================== Confirmar asistencia ============================== */
 
