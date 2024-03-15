@@ -551,14 +551,14 @@ body {
 }
 
 .confirmar-asistencia button {
-    background-color: #BFBA7C;
+    background-color: #c5c184;
     padding: 8px 20px;
     border: none;
     border-radius: 12px;
 }
 
 .confirmar-asistencia button:hover {
-    background-color: #a5a067;
+    background-color: #c5c184;
     cursor: pointer;
     
 }
