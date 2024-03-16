@@ -521,6 +521,7 @@ body {
     border-radius: 4px;
     border: none;
     border-bottom: 1px solid black;
+    outline: none;
     background-color: transparent;
 }
 
@@ -782,8 +783,9 @@ input::placeholder {
 
     .flor-9{
         position: absolute;
-        left: 16%;
-        top: 205 9px;
+        left: -18%;
+        margin-top: 357px;
+        width: 252px;
         z-index: -1;
     }
 
@@ -819,6 +821,7 @@ input::placeholder {
     .final{
         margin-left: 57px;
     }
+
 }
 /* ============================== MQ ============================== */
 
