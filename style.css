@@ -822,6 +822,19 @@ input::placeholder {
         margin-left: 57px;
     }
 
+    .footer {
+        position: relative;
+        margin-top: 190px;
+        background-color: #f2f2f2;
+        padding: 60px 0;
+        overflow: hidden;
+    }
+    
+    .seccion {
+        margin-top: 200px;
+        margin-bottom: 110px;
+    }
+
 }
 /* ============================== MQ ============================== */
 
