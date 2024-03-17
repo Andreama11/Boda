@@ -649,7 +649,7 @@ input::placeholder {
     .cards-detalles {
         flex-direction: column;
         align-items: center;
-        gap: 75px;
+        gap: 90px;
     }
 
     .title-dress {
@@ -668,7 +668,7 @@ input::placeholder {
 @media (max-width: 700px) {
     .header {
         position: absolute;
-        background-image: url('./img/M&A-373.jpg');
+        background-image: url('./img/M&A-373\ \(2\).jpg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -783,9 +783,9 @@ input::placeholder {
 
     .flor-9{
         position: absolute;
-        left: -18%;
-        margin-top: 357px;
-        width: 252px;
+        left: 20%;
+        margin-top: 608px;
+        width: 250px;
         z-index: -1;
     }
 
