@@ -473,7 +473,7 @@ body {
     width: 280px;
 }
 .vestidos img {
-    width: 150px;
+    width: 145px;
 }
 .sobre img {
     width: 73px;
@@ -498,7 +498,7 @@ body {
  
 }
 .cancion img {
-    width: 62px;
+    width: 55px;
     margin-bottom: 88px;
 }
 
@@ -507,13 +507,17 @@ body {
     font-size: 14px;
 }
 
+.man code{
+    margin-top: 3px;
+}
+
 .card-button{
     background-color: #FFF9EF;
-    border-radius: 5px;
-    margin-top: 8px;
+    border-radius: 10px;
+    margin-top: 12px;
     padding: 4px 10px;
     font-family: 'Playfair Display';
-    border: 1px solid black
+    border: 0px solid black
 }
 
 
@@ -536,6 +540,8 @@ input::placeholder {
     left: -7%;
     top: 1959px;
 }
+
+
 /* ============================== Cards ============================== */
 
 
@@ -595,6 +601,12 @@ input::placeholder {
     position: absolute;
     left: 88%;
     z-index: 1;
+}
+
+.confirmation-button{
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    padding: 4px;
 }
 /* ============================== Confirmar asistencia ============================== */
 
@@ -784,7 +796,7 @@ input::placeholder {
     .flor-9{
         position: absolute;
         left: 20%;
-        margin-top: 608px;
+        margin-top: 628px;
         width: 250px;
         z-index: -1;
     }
