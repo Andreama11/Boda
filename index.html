@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./img/Amor.png"/>
     <title>Andres y Mariana</title>
 
-    <link rel="stylesheet" href="normalize.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -157,19 +157,27 @@
                     <img loading="lazy" src="./img/music.png" alt="">
                 </div>
 
-                <input class="get-name" type="text"  placeholder="Ingresa canción" />
-                <button class="card-button">Sugerir canción</button>
+                <form class="forma-2" action="https://formsubmit.co/marianamenjuraar@gmail.com" method="post">
+                    <input class="get-name" type="text"  placeholder="Ingresa canción" name="Nombre Canción"/>
+                    <button class="card-button">Sugerir canción</button>
+
+                    <input type="hidden" name="_next" value="http://andresymariana.online/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form> 
             </div>
         </div>
     </section>
 
-    <form class="form" action="https://formsubmit.co/marianamenjuraar@gmail.com" method="POST" >
+
+    <form class="form" action="https://formsubmit.co/menjuraandrea@gmail.com" method="POST" >
         <div class="confirmar-asistencia contenedor">
             <p class="confirmation" >Por favor confirmanos tu asistencia</p>
             <input class="get-name" type="text" placeholder="Nombre y Apellidos" name="Nombre" >
             <button class="confirmation-button" >Enviar confirmación</button>
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
             <input type="hidden" name="_captcha" value="false">
+
             <img loading="lazy" class="flor-10" src="./img/flores10.png" alt="">
         </div>
     </form>

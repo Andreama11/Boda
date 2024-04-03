@@ -466,6 +466,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .card {
     border-radius: 15px;
     box-shadow: 0 6px 8px rgba(27, 25, 25, 0.1);
