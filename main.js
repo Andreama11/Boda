@@ -47,7 +47,7 @@ function updateCountdowntime() {
     minutes.innerHTML = m < 10 ? '0' + m : m;
     seconds.innerHTML = s < 10 ? '0' + s : s;
 
-    console.log(diff);
+    //console.log(diff);
     if (diff < 0) {
         clearInterval(countdownInterval)
         countdown.innerHTML = "Terminó"
